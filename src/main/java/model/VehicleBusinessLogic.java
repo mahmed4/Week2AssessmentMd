@@ -4,6 +4,8 @@ import java.util.Calendar;
 
 public class VehicleBusinessLogic {
 	
+	// Created by Md Ahmed
+	
 	Calendar calendar = Calendar.getInstance();
 	
 	// make sure vehicle must have a name to be listed
@@ -28,6 +30,7 @@ public class VehicleBusinessLogic {
 		return isVehicleYear;
 	}
 	
+	//make sure we consider price drop range on the basis of FWD and 4WD
 	public double vehicleDriveSale(Vehicle vehicle) {
 		double saleOption = 0.0;
 		if(vehicle.getDrive().equals("FWD")) {

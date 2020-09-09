@@ -6,6 +6,9 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 
 @SuiteClasses({ TestVehicleLogic1.class, TestVehicleLogic2.class })
-public class TestSuite {
 
+public class TestSuite {
+	
+	// Created by Md Ahmed
+	
 }
